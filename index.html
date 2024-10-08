@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Competições Esportivas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Sistema de Competições Esportivas</h1>
+    </header>
+    <main>
+        <section class="login-form">
+            <input type="text" placeholder="Usuário">
+            <input type="password" placeholder="Senha">
+            <button onclick="login()">Entrar</button>
+            <button onclick="register()">Cadastrar</button>
+        </section>
+        <section class="sports-list">
+            <button onclick="selectSport('Futebol')">Futebol</button>
+            <button onclick="selectSport('Basquete')">Basquete</button>
+            <button onclick="selectSport('Vôlei')">Vôlei</button>
+        </section>
+        <section>
+            <h2>Pontuações</h2>
+            <table id="scoreTable">
+                <tr>
+                    <th>Equipe</th>
+                    <th>Partidas</th>
+                    <th>Vitórias</th>
+                    <th>Pontos</th>
+                </tr>
+            </table>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

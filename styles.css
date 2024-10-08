@@ -1,0 +1,65 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+    color: #333;
+}
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+main {
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 1em;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 5px;
+}
+h1, h2 {
+    color: #4CAF50;
+}
+.login-form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}
+.login-form input {
+    padding: 0.5em;
+    margin-right: 1em;
+}
+.login-form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+}
+.sports-list {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2em;
+}
+.sports-list button {
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    padding: 0.5em 1em;
+    cursor: pointer;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 0.5em;
+    text-align: left;
+}
+th {
+    background-color: #4CAF50;
+    color: white;
+}
